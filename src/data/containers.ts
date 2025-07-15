@@ -1,0 +1,85 @@
+import { Container, ContainerItem } from '../types';
+
+export const containers: Container[] = [
+  {
+    id: 'cont1',
+    name: 'Conteneur Chine-Paris #001',
+    departureLocation: 'Shanghai, Chine',
+    arrivalLocation: 'Paris, France',
+    estimatedDepartureDate: '2023-08-15',
+    totalCapacity: 1000,
+    usedCapacity: 750,
+    status: 'active',
+  },
+  {
+    id: 'cont2',
+    name: 'Conteneur Chine-Berlin #002',
+    departureLocation: 'Shenzhen, Chine',
+    arrivalLocation: 'Berlin, Allemagne',
+    estimatedDepartureDate: '2023-09-01',
+    totalCapacity: 800,
+    usedCapacity: 800,
+    status: 'closed',
+  },
+  {
+    id: 'cont3',
+    name: 'Conteneur Chine-New York #003',
+    departureLocation: 'Guangzhou, Chine',
+    arrivalLocation: 'New York, USA',
+    estimatedDepartureDate: '2023-08-20',
+    totalCapacity: 1200,
+    usedCapacity: 300,
+    status: 'active',
+  },
+  {
+    id: 'cont4',
+    name: 'Conteneur Chine-Londres #004',
+    departureLocation: 'Ningbo, Chine',
+    arrivalLocation: 'Londres, UK',
+    estimatedDepartureDate: '2023-09-10',
+    totalCapacity: 900,
+    usedCapacity: 900,
+    status: 'closed',
+  },
+  {
+    id: 'cont5',
+    name: 'Conteneur Chine-Sydney #005',
+    departureLocation: 'Qingdao, Chine',
+    arrivalLocation: 'Sydney, Australie',
+    estimatedDepartureDate: '2023-09-05',
+    totalCapacity: 700,
+    usedCapacity: 150,
+    status: 'active',
+  },
+];
+
+export const containerItems: ContainerItem[] = [
+  {
+    id: 'item1',
+    containerId: 'cont1',
+    productId: 'prod1',
+    quantity: 100,
+    userId: 'user1',
+  },
+  {
+    id: 'item2',
+    containerId: 'cont1',
+    productId: 'prod2',
+    quantity: 200,
+    userId: 'user2',
+  },
+  {
+    id: 'item3',
+    containerId: 'cont1',
+    productId: 'prod3',
+    quantity: 450,
+    userId: 'user3',
+  },
+  {
+    id: 'item4',
+    containerId: 'cont3',
+    productId: 'prod4',
+    quantity: 300,
+    userId: 'user1',
+  },
+]; 

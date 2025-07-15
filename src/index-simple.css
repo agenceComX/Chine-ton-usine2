@@ -1,0 +1,284 @@
+/* Styles de base pour les polices */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Styles personnalisés pour les composants */
+.btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors;
+}
+
+.card {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md p-4;
+}
+
+/* Animations explicites et plus fortes pour le debug */
+@keyframes strongFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes strongSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes strongStagger {
+    0% {
+        opacity: 0;
+        transform: scale(0.5) translateY(40px) rotate(5deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0) rotate(0deg);
+    }
+}
+
+@keyframes infinitePulse {
+    0% {
+        transform: scale(1);
+        background-color: #3b82f6;
+    }
+
+    50% {
+        transform: scale(1.1);
+        background-color: #ef4444;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: #3b82f6;
+    }
+}
+
+@keyframes infiniteRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Classes d'animation fortes pour le debug */
+.debug-fade {
+    animation: strongFadeIn 2s ease-out forwards;
+}
+
+.debug-slide {
+    animation: strongSlideIn 1.5s ease-out forwards;
+}
+
+.debug-stagger {
+    animation: strongStagger 2s ease-out forwards;
+}
+
+.infinite-pulse {
+    animation: infinitePulse 2s ease-in-out infinite;
+}
+
+.infinite-rotate {
+    animation: infiniteRotate 3s linear infinite;
+}
+
+/* Hover effects très visibles et optimisés */
+.product-card {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    will-change: transform, box-shadow;
+}
+
+.product-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.2), 0 15px 15px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les groupes de cartes */
+.group:hover .group-hover\:scale-110 {
+    transform: scale(1.1);
+}
+
+/* Animations optimisées pour les images */
+.product-card img {
+    will-change: transform;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Animation de shimmer pour le chargement */
+@keyframes shimmer {
+    0% {
+        background-position: -200px 0;
+    }
+
+    100% {
+        background-position: calc(200px + 100%) 0;
+    }
+}
+
+.shimmer {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200px 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+/* Amélioration des badges */
+.badge {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+/* Smooth scroll pour les conteneurs */
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
+
+/* Animation de transition de page - scale très léger */
+@keyframes pageTransitionIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.98);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Alternative 1: Simple fade */
+@keyframes pageTransitionInFade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Alternative 2: Slide depuis le bas très subtil */
+@keyframes pageTransitionInSlide {
+    0% {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pageTransitionOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.02);
+    }
+}
+
+.page-transition-in {
+    animation: pageTransitionIn 0.3s ease-out forwards;
+}
+
+.page-transition-in-fade {
+    animation: pageTransitionInFade 0.4s ease-out forwards;
+}
+
+.page-transition-in-slide {
+    animation: pageTransitionInSlide 0.3s ease-out forwards;
+}
+
+.page-transition-out {
+    animation: pageTransitionOut 0.2s ease-in forwards;
+}
+
+/* Animation de navigation pour les cartes produits */
+.product-card-navigate {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-card-navigate:active {
+    transform: scale(0.98);
+}
+
+/* Animation pour les filtres */
+.filter-section {
+    transition: all 0.5s ease;
+}
+
+.filter-item {
+    transition: all 0.3s ease;
+}
+
+.filter-item:hover {
+    background-color: rgba(59, 130, 246, 0.1);
+    border-radius: 8px;
+    transform: translateX(4px);
+}
+
+/* Animation pour la recherche */
+.search-input {
+    transition: all 0.4s ease;
+}
+
+.search-input:focus {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+}
+
+/* Transitions pour le toggle vue */
+.view-toggle {
+    transition: all 0.3s ease;
+}
+
+.view-toggle:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
+/* Animation pour les badges */
+.badge {
+    animation: strongFadeIn 0.6s ease-out;
+}
+
+/* Test d'animation avec délais plus longs */
+.animate-test {
+    animation: strongFadeIn 2s ease-out forwards;
+}
+
+/* Animation de tab underline */
+.tab-underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 2px;
+}

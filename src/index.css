@@ -1,0 +1,586 @@
+/* Import optimisé des polices Google Fonts avec preload et font-display swap */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+/* Import des animations personnalisées */
+@import './styles/animations.css';
+@import './styles/auth-design.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optimisation des performances CSS */
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+  }
+
+  /* Preload des polices critiques */
+  html {
+    font-display: swap;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    font-feature-settings: 'cv05', 'cv08', 'cv11';
+    font-variant-ligatures: none;
+    line-height: 1.7;
+    letter-spacing: 0.015em;
+    /* Optimisation du scroll */
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Ensure proper spacing between content and footer */
+  main {
+    flex: 1;
+    padding-bottom: 2rem;
+    /* Add padding to the bottom of all main content */
+  }
+
+  /* Styles pour l'administration */
+  .admin-layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .admin-main {
+    flex: 1;
+    margin-left: 16rem;
+    /* 256px in rem */
+    padding: 1.5rem;
+    padding-bottom: 5rem;
+    /* Extra space for footer */
+    min-height: calc(100vh - 4rem);
+  }
+
+  .admin-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 16rem;
+    /* 256px */
+    z-index: 30;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(156, 163, 175, 0.5) transparent;
+  }
+
+  .admin-sidebar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .admin-sidebar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .admin-sidebar::-webkit-scrollbar-thumb {
+    background-color: rgba(156, 163, 175, 0.5);
+    border-radius: 3px;
+  }
+
+  .admin-sidebar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(156, 163, 175, 0.7);
+  }
+
+  /* Amélioration des cartes */
+  .admin-card {
+    background: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(229, 231, 235, 1);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .admin-card:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transform: translateY(-1px);
+  }
+
+  /* Dark mode pour les cartes admin */
+  .dark .admin-card {
+    background: #1f2937;
+    border-color: #374151;
+  }
+
+  .dark .admin-card:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Layout spécifique pour les pages admin avec footer */
+  .admin-layout-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .admin-content-wrapper {
+    flex: 1;
+    display: flex;
+  }
+
+  .admin-main-content {
+    flex: 1;
+    margin-left: 16rem;
+    /* 256px */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .admin-page-content {
+    flex: 1;
+    padding: 1.5rem;
+  }
+
+  /* Footer dans le contexte admin */
+  .admin-footer {
+    margin-left: 16rem;
+    /* 256px pour la sidebar */
+    background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 50%, #ea580c 100%);
+  }
+
+  /* Ajustements responsive pour admin */
+  @media (max-width: 1024px) {
+
+    .admin-main-content,
+    .admin-footer {
+      margin-left: 0;
+    }
+
+    .admin-sidebar {
+      transform: translateX(-100%);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .admin-sidebar.open {
+      transform: translateX(0);
+    }
+  }
+
+  /* Footer admin en pleine largeur - solution définitive */
+  footer[style*="100vw"] {
+    width: 100vw !important;
+    margin-left: 0 !important;
+    left: 0 !important;
+    position: relative !important;
+    box-sizing: border-box !important;
+    transform: translateX(0) !important;
+  }
+
+  /* Container du layout admin */
+  .relative>footer {
+    width: 100vw !important;
+    margin-left: 0 !important;
+  }
+
+  /* Espacement footer admin */
+  footer.mt-8 {
+    margin-top: 2rem !important;
+    padding-left: 1rem;
+  }
+
+  footer.mt-8>div {
+    margin-left: 1.5rem;
+  }
+
+  /* Assure que le footer prend toute la largeur même dans l'admin */
+  footer[class*="bg-gradient-to-br"] {
+    box-sizing: border-box;
+  }
+
+  /* Sidebar scrollable avec styles personnalisés */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: #d1d5db #f3f4f6;
+  }
+
+  .dark .scrollbar-thin {
+    scrollbar-color: #6b7280 #374151;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #f3f4f6;
+  }
+
+  .dark .scrollbar-thin::-webkit-scrollbar-track {
+    background: #374151;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 3px;
+  }
+
+  .dark .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #6b7280;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+  }
+
+  .dark .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: -0.025em;
+  }
+
+  /* Optimisation des images pour la performance */
+  img {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 1000px;
+  }
+
+  /* Amélioration du contraste pour une meilleure lisibilité */
+  .text-gray-600 {
+    color: rgb(75 85 99 / 1) !important;
+    /* Plus foncé pour plus de contraste */
+  }
+
+  .text-gray-500 {
+    color: rgb(107 114 128 / 1) !important;
+    /* Plus foncé pour plus de contraste */
+  }
+
+  /* Mode sombre - amélioration de la lisibilité */
+  .dark .text-gray-300 {
+    color: rgb(229 231 235 / 1) !important;
+    /* Plus clair en mode sombre */
+  }
+
+  .dark .text-gray-400 {
+    color: rgb(209 213 219 / 1) !important;
+    /* Plus clair en mode sombre */
+  }
+}
+
+/* Classes utilitaires pour une meilleure typographie */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  .font-display {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-feature-settings: 'cv05', 'cv08', 'cv11';
+  }
+
+  .font-reading {
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+  }
+
+  .text-readable {
+    font-size: 1rem;
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+    color: rgb(55 65 81 / 1);
+  }
+
+  .dark .text-readable {
+    color: rgb(229 231 235 / 1);
+  }
+}
+
+/* Product Recommendations Animations */
+@keyframes gradient {
+
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes iconBounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-3px);
+  }
+
+  60% {
+    transform: translateY(-1px);
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+}
+
+.animate-slide-in-left {
+  animation: slideInFromLeft 0.6s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInFromRight 0.6s ease-out;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.icon-bounce {
+  animation: iconBounce 2s infinite;
+}
+
+.bg-size-200 {
+  background-size: 200% 200%;
+}
+
+.hover\\:bg-right:hover {
+  background-position: right center;
+}
+
+/* Smooth scrolling pour les indicateurs */
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+/* Line clamp utility pour tronquer le texte */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Force l'élimination de l'espace au-dessus de ProductRecommendations */
+.remove-top-space {
+  margin-top: -15rem !important;
+  position: relative !important;
+  z-index: 50 !important;
+}
+
+/* Assure qu'il n'y a pas d'espace en dessous de la section Comment ça marche */
+.no-bottom-space {
+  margin-bottom: -10rem !important;
+  padding-bottom: 0 !important;
+}
+
+/* Solution ultra agressive pour éliminer l'espace */
+.force-no-gap {
+  transform: translateY(-12rem) !important;
+  position: relative !important;
+  z-index: 100 !important;
+}
+
+/* Conteneur flex pour éliminer les espaces naturels */
+.no-space-container {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Force l'élimination de tous les espaces entre sections */
+.eliminate-all-spaces>* {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.eliminate-all-spaces>*:not(:first-child) {
+  transform: translateY(-10rem) !important;
+}
+
+/* Styles pour améliorer les boutons */
+@layer components {
+  .btn-improved {
+    @apply transition-all duration-200 transform hover:scale-105 active:scale-95;
+  }
+
+  .btn-loading {
+    @apply pointer-events-none;
+  }
+}
+
+/* Amélioration des boutons pour le mode sombre */
+@layer utilities {
+  .dark .bg-blue-600 {
+    background-color: rgb(29 78 216);
+  }
+
+  .dark .bg-blue-600:hover {
+    background-color: rgb(37 99 235);
+  }
+
+  .dark .border-gray-300 {
+    border-color: rgb(75 85 99);
+  }
+
+  .dark .text-gray-700 {
+    color: rgb(209 213 219);
+  }
+
+  .dark .hover\:bg-gray-50:hover {
+    background-color: rgb(55 65 81);
+  }
+}
+
+/* Barres de défilement personnalisées */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.5);
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.7);
+}
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(59, 130, 246, 0.5) rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar sticky au footer */
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+/* Assure que la sidebar reste sticky jusqu'au footer */
+aside.sticky {
+  top: 0;
+  height: fit-content;
+  max-height: calc(100vh - 120px);
+}
+
+/* Layout admin avec sidebar sticky */
+.flex>aside.sticky+main {
+  margin-left: 0;
+  padding-left: 1.5rem;
+}
+
+/* Footer fixe en bas de l'écran */
+footer.fixed {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 50 !important;
+  width: 100vw !important;
+  margin-left: 0 !important;
+}
+
+/* AdminLayout avec footer fixe */
+.relative>footer.fixed {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+}
