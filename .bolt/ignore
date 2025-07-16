@@ -1,0 +1,14 @@
+# Dossiers de build et dépendances
+dist/*
+node_modules/*
+
+# Fichiers binaires lourds
+public/uploads/*
+assets/*
+*.png
+*.jpg
+*.zip
+*.log
+
+# Docs volumineuses
+*.md
