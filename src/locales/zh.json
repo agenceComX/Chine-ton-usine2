@@ -24,70 +24,54 @@
   },
   "homepage": {
     "title": "Chine ton usine",
+    "subtitle": "直接连接经过验证的制造商",
     "hero": {
-      "subtitle": "3次点击找到您在中国的工厂",
-      "description": "领先的B2B平台，直接连接数千家经过验证的中国供应商",
       "cta": "立即开始",
-      "searchPlaceholder": "搜索产品、品牌..."
+      "register": "注册",
+      "searchPlaceholder": "新界面开发中..."
     },
     "stats": {
       "products": "产品",
-      "suppliers": "认证供应商",
-      "satisfaction": "客户满意度",
-      "response": "平均响应时间"
+      "suppliers": "供应商", 
+      "satisfaction": "满意度",
+      "response": "响应"
+    },
+    "navbar": {
+      "home": "首页",
+      "discover": "发现",
+      "dashboard": "仪表板",
+      "search": "搜索产品...",
+      "logout": "退出"
     },
     "categories": {
-      "popular": "热门类别",
-      "popularSubtitle": "发现我们最受欢迎的类别",
       "electronics": "电子产品",
+      "electronicsExplore": "探索",
       "fashion": "时尚",
+      "fashionExplore": "探索", 
       "home": "家居",
+      "homeExplore": "探索",
       "beauty": "美妆",
+      "beautyExplore": "探索",
       "sports": "运动",
+      "sportsExplore": "探索",
       "automotive": "汽车",
-      "tools": "工具",
-      "toys": "玩具",
-      "books": "书籍",
-      "music": "音乐",
-      "garden": "园艺",
-      "food": "食品"
+      "automotiveExplore": "探索"
     },
-    "benefits": {
-      "title": "为什么选择Chine ton usine？",
-      "payment": {
-        "title": "安全支付",
-        "description": "受保护的交易，提供退款保证"
-      },
-      "delivery": {
-        "title": "全球配送",
-        "description": "快速可靠的全球运输"
-      },
-      "support": {
-        "title": "24/7支持",
-        "description": "随时提供多语言协助"
-      }
-    },
-    "how": {
+    "process": {
       "title": "如何运作？",
-      "subtitle": "仅需3步即可找到您在中国的工厂",
+      "subtitle": "从中国订购的三个简单步骤",
       "step1": {
-        "title": "1. 搜索",
-        "description": "浏览我们数千种经过验证的产品和供应商目录"
+        "title": "安全付款",
+        "description": "24小时客服支持"
       },
       "step2": {
-        "title": "2. 联系",
-        "description": "直接联系可靠的中国工厂"
+        "title": "快速发货",
+        "description": "可信赖的物流"
       },
       "step3": {
-        "title": "3. 订购",
-        "description": "协商价格并放心下单"
-      },
-      "cta": "创建账户"
-    },
-    "final": {
-      "title": "准备发展您的业务了吗？",
-      "subtitle": "加入信任我们的数千家公司",
-      "button": "免费创建我的账户"
+        "title": "24/7客服",
+        "description": "安心付款"
+      }
     }
   },
   "footer": {

@@ -24,70 +24,54 @@
   },
   "homepage": {
     "title": "Chine ton usine",
+    "subtitle": "Conecte-se diretamente com fabricantes verificados",
     "hero": {
-      "subtitle": "Encontre sua fábrica na China em 3 cliques",
-      "description": "A plataforma B2B líder para conectar diretamente com milhares de fornecedores chineses verificados",
       "cta": "Começar agora",
-      "searchPlaceholder": "Pesquisar um produto, marca..."
+      "register": "Registrar",
+      "searchPlaceholder": "Nova interface em desenvolvimento..."
     },
     "stats": {
-      "products": "produtos",
-      "suppliers": "fornecedores verificados",
-      "satisfaction": "satisfação do cliente",
-      "response": "tempo médio de resposta"
+      "products": "Produtos",
+      "suppliers": "Fornecedores", 
+      "satisfaction": "Satisfação",
+      "response": "Resposta"
+    },
+    "navbar": {
+      "home": "Início",
+      "discover": "Descobrir",
+      "dashboard": "Painel",
+      "search": "Pesquisar produtos...",
+      "logout": "Sair"
     },
     "categories": {
-      "popular": "Categorias populares",
-      "popularSubtitle": "Descubra nossas categorias mais solicitadas",
       "electronics": "Eletrônicos",
+      "electronicsExplore": "Explorar",
       "fashion": "Moda",
+      "fashionExplore": "Explorar", 
       "home": "Casa",
+      "homeExplore": "Explorar",
       "beauty": "Beleza",
+      "beautyExplore": "Explorar",
       "sports": "Esportes",
+      "sportsExplore": "Explorar",
       "automotive": "Automotivo",
-      "tools": "Ferramentas",
-      "toys": "Brinquedos",
-      "books": "Livros",
-      "music": "Música",
-      "garden": "Jardim",
-      "food": "Alimentação"
+      "automotiveExplore": "Explorar"
     },
-    "benefits": {
-      "title": "Por que escolher Chine ton usine?",
-      "payment": {
-        "title": "Pagamentos seguros",
-        "description": "Transações protegidas com garantia de reembolso"
-      },
-      "delivery": {
-        "title": "Entrega mundial",
-        "description": "Envio rápido e confiável em todo o mundo"
-      },
-      "support": {
-        "title": "Suporte 24/7",
-        "description": "Assistência multilíngue disponível a qualquer momento"
-      }
-    },
-    "how": {
+    "process": {
       "title": "Como funciona?",
-      "subtitle": "Encontre sua fábrica na China em apenas 3 passos",
+      "subtitle": "Três passos simples para encomendar da China",
       "step1": {
-        "title": "1. Pesquisar",
-        "description": "Navegue em nosso catálogo de milhares de produtos e fornecedores verificados"
+        "title": "Pagamento Seguro",
+        "description": "Suporte ao cliente 24/7"
       },
       "step2": {
-        "title": "2. Contatar",
-        "description": "Entre em contato direto com fábricas chinesas confiáveis"
+        "title": "Envio Rápido",
+        "description": "Logística confiável"
       },
       "step3": {
-        "title": "3. Encomendar",
-        "description": "Negocie seus preços e faça seu pedido com confiança"
-      },
-      "cta": "Criar uma conta"
-    },
-    "final": {
-      "title": "Pronto para expandir seu negócio?",
-      "subtitle": "Junte-se a milhares de empresas que confiam em nós",
-      "button": "Criar minha conta gratuita"
+        "title": "Suporte 24/7",
+        "description": "Pague com confiança"
+      }
     }
   },
   "footer": {

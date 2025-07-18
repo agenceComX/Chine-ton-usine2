@@ -24,70 +24,54 @@
   },
   "homepage": {
     "title": "Chine ton usine",
+    "subtitle": "Connect directly with verified manufacturers",
     "hero": {
-      "subtitle": "Find your factory in China in 3 clicks",
-      "description": "The leading B2B platform to connect directly with thousands of verified Chinese suppliers",
       "cta": "Get started now",
-      "searchPlaceholder": "Search for a product, brand..."
+      "register": "Register",
+      "searchPlaceholder": "New interface in development..."
     },
     "stats": {
-      "products": "products",
-      "suppliers": "verified suppliers",
-      "satisfaction": "customer satisfaction",
-      "response": "average response time"
+      "products": "Products",
+      "suppliers": "Suppliers", 
+      "satisfaction": "Satisfaction",
+      "response": "Response"
+    },
+    "navbar": {
+      "home": "Home",
+      "discover": "Discover",
+      "dashboard": "Dashboard",
+      "search": "Search products...",
+      "logout": "Logout"
     },
     "categories": {
-      "popular": "Popular categories",
-      "popularSubtitle": "Discover our most requested categories",
       "electronics": "Electronics",
+      "electronicsExplore": "Explore",
       "fashion": "Fashion",
+      "fashionExplore": "Explore", 
       "home": "Home",
+      "homeExplore": "Explore",
       "beauty": "Beauty",
+      "beautyExplore": "Explore",
       "sports": "Sports",
+      "sportsExplore": "Explore",
       "automotive": "Automotive",
-      "tools": "Tools",
-      "toys": "Toys",
-      "books": "Books",
-      "music": "Music",
-      "garden": "Garden",
-      "food": "Food"
+      "automotiveExplore": "Explore"
     },
-    "benefits": {
-      "title": "Why choose Chine ton usine?",
-      "payment": {
-        "title": "Secure payments",
-        "description": "Protected transactions with money-back guarantee"
-      },
-      "delivery": {
-        "title": "Worldwide delivery",
-        "description": "Fast and reliable shipping worldwide"
-      },
-      "support": {
-        "title": "24/7 Support",
-        "description": "Multilingual assistance available anytime"
-      }
-    },
-    "how": {
+    "process": {
       "title": "How does it work?",
-      "subtitle": "Find your factory in China in just 3 steps",
+      "subtitle": "Three simple steps to order from China",
       "step1": {
-        "title": "1. Search",
-        "description": "Browse our catalog of thousands of verified products and suppliers"
+        "title": "Secure Payment",
+        "description": "24/7 customer support"
       },
       "step2": {
-        "title": "2. Contact",
-        "description": "Get in direct contact with reliable Chinese factories"
+        "title": "Fast Shipping",
+        "description": "Reliable logistics"
       },
       "step3": {
-        "title": "3. Order",
-        "description": "Negotiate your prices and place your order with confidence"
-      },
-      "cta": "Create an account"
-    },
-    "final": {
-      "title": "Ready to grow your business?",
-      "subtitle": "Join thousands of companies that trust us",
-      "button": "Create my free account"
+        "title": "24/7 Support",
+        "description": "Pay with confidence"
+      }
     }
   },
   "footer": {

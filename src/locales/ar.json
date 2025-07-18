@@ -24,70 +24,54 @@
   },
   "homepage": {
     "title": "Chine ton usine",
+    "subtitle": "اتصل مباشرة مع المصنعين المعتمدين",
     "hero": {
-      "subtitle": "اعثر على مصنعك في الصين بـ 3 نقرات",
-      "description": "المنصة الرائدة للأعمال التجارية للتواصل مباشرة مع آلاف الموردين الصينيين المعتمدين",
       "cta": "ابدأ الآن",
-      "searchPlaceholder": "ابحث عن منتج، علامة تجارية..."
+      "register": "تسجيل",
+      "searchPlaceholder": "واجهة جديدة قيد التطوير..."
     },
     "stats": {
-      "products": "منتج",
-      "suppliers": "مورد معتمد",
-      "satisfaction": "رضا العملاء",
-      "response": "متوسط وقت الاستجابة"
+      "products": "المنتجات",
+      "suppliers": "الموردون", 
+      "satisfaction": "الرضا",
+      "response": "الاستجابة"
+    },
+    "navbar": {
+      "home": "الرئيسية",
+      "discover": "اكتشف",
+      "dashboard": "لوحة التحكم",
+      "search": "البحث عن المنتجات...",
+      "logout": "تسجيل الخروج"
     },
     "categories": {
-      "popular": "الفئات الشائعة",
-      "popularSubtitle": "اكتشف فئاتنا الأكثر طلباً",
       "electronics": "إلكترونيات",
+      "electronicsExplore": "استكشف",
       "fashion": "موضة",
+      "fashionExplore": "استكشف", 
       "home": "منزل",
+      "homeExplore": "استكشف",
       "beauty": "جمال",
+      "beautyExplore": "استكشف",
       "sports": "رياضة",
+      "sportsExplore": "استكشف",
       "automotive": "سيارات",
-      "tools": "أدوات",
-      "toys": "ألعاب",
-      "books": "كتب",
-      "music": "موسيقى",
-      "garden": "حديقة",
-      "food": "طعام"
+      "automotiveExplore": "استكشف"
     },
-    "benefits": {
-      "title": "لماذا تختار Chine ton usine؟",
-      "payment": {
-        "title": "مدفوعات آمنة",
-        "description": "معاملات محمية مع ضمان استرداد الأموال"
-      },
-      "delivery": {
-        "title": "توصيل عالمي",
-        "description": "شحن سريع وموثوق في جميع أنحاء العالم"
-      },
-      "support": {
-        "title": "دعم 24/7",
-        "description": "مساعدة متعددة اللغات متاحة في أي وقت"
-      }
-    },
-    "how": {
+    "process": {
       "title": "كيف يعمل؟",
-      "subtitle": "اعثر على مصنعك في الصين في 3 خطوات فقط",
+      "subtitle": "ثلاث خطوات بسيطة للطلب من الصين",
       "step1": {
-        "title": "1. ابحث",
-        "description": "تصفح كتالوجنا من آلاف المنتجات والموردين المعتمدين"
+        "title": "دفع آمن",
+        "description": "دعم العملاء على مدار الساعة"
       },
       "step2": {
-        "title": "2. تواصل",
-        "description": "تواصل مباشرة مع مصانع صينية موثوقة"
+        "title": "شحن سريع",
+        "description": "خدمات لوجستية موثوقة"
       },
       "step3": {
-        "title": "3. اطلب",
-        "description": "تفاوض على أسعارك واطلب بثقة"
-      },
-      "cta": "إنشاء حساب"
-    },
-    "final": {
-      "title": "مستعد لتنمية عملك؟",
-      "subtitle": "انضم إلى آلاف الشركات التي تثق بنا",
-      "button": "إنشاء حسابي المجاني"
+        "title": "دعم 24/7",
+        "description": "ادفع بثقة"
+      }
     }
   },
   "footer": {

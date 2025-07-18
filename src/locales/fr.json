@@ -24,70 +24,54 @@
   },
   "homepage": {
     "title": "Chine ton usine",
+    "subtitle": "Connectez-vous directement avec des fabricants vérifiés",
     "hero": {
-      "subtitle": "Trouvez votre usine en Chine en 3 clics",
-      "description": "La principale plateforme B2B pour connecter directement avec des milliers de fournisseurs chinois vérifiés",
       "cta": "Commencer maintenant",
-      "searchPlaceholder": "Recherchez un produit, une marque..."
+      "register": "注册",
+      "searchPlaceholder": "新界面开发中..."
     },
     "stats": {
-      "products": "de produits",
-      "suppliers": "fournisseurs vérifiés",
-      "satisfaction": "de satisfaction client",
-      "response": "temps de réponse moyen"
+      "products": "产品",
+      "suppliers": "供应商", 
+      "satisfaction": "满意度",
+      "response": "响应"
+    },
+    "navbar": {
+      "home": "首页",
+      "discover": "发现",
+      "dashboard": "仪表板",
+      "search": "搜索产品...",
+      "logout": "退出"
     },
     "categories": {
-      "popular": "Catégories populaires",
-      "popularSubtitle": "Découvrez nos catégories les plus demandées",
       "electronics": "Électronique",
+      "electronicsExplore": "探索",
       "fashion": "Mode",
+      "fashionExplore": "探索", 
       "home": "Maison",
+      "homeExplore": "探索",
       "beauty": "Beauté",
+      "beautyExplore": "探索",
       "sports": "Sport",
+      "sportsExplore": "探索",
       "automotive": "Automobile",
-      "tools": "Outils",
-      "toys": "Jouets",
-      "books": "Livres",
-      "music": "Musique",
-      "garden": "Jardin",
-      "food": "Alimentaire"
+      "automotiveExplore": "探索"
     },
-    "benefits": {
-      "title": "Pourquoi choisir Chine ton usine ?",
-      "payment": {
-        "title": "Paiements sécurisés",
-        "description": "Transactions protégées avec garantie de remboursement"
-      },
-      "delivery": {
-        "title": "Livraison mondiale",
-        "description": "Expédition rapide et fiable dans le monde entier"
-      },
-      "support": {
-        "title": "Support 24/7",
-        "description": "Assistance multilingue disponible à tout moment"
-      }
-    },
-    "how": {
+    "process": {
       "title": "Comment ça marche ?",
-      "subtitle": "Trouvez votre usine en Chine en seulement 3 étapes",
+      "subtitle": "Trois étapes simples pour commander depuis la Chine",
       "step1": {
-        "title": "1. Recherchez",
-        "description": "Parcourez notre catalogue de milliers de produits et fournisseurs vérifiés"
+        "title": "安全付款",
+        "description": "24小时客服支持"
       },
       "step2": {
-        "title": "2. Contactez",
-        "description": "Entrez en contact direct avec des usines chinoises fiables"
+        "title": "快速发货",
+        "description": "可信赖的物流"
       },
       "step3": {
-        "title": "3. Commandez",
-        "description": "Négociez vos prix et lancez votre commande en toute sérénité"
-      },
-      "cta": "Créer un compte"
-    },
-    "final": {
-      "title": "Prêt à développer votre business ?",
-      "subtitle": "Rejoignez des milliers d'entreprises qui nous font confiance",
-      "button": "Créer mon compte gratuitement"
+        "title": "24/7客服",
+        "description": "Payez en toute confiance"
+      }
     }
   },
   "footer": {

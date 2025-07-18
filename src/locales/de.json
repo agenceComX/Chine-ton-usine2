@@ -24,70 +24,54 @@
   },
   "homepage": {
     "title": "Chine ton usine",
+    "subtitle": "Verbinden Sie sich direkt mit verifizierten Herstellern",
     "hero": {
-      "subtitle": "Finden Sie Ihre Fabrik in China mit 3 Klicks",
-      "description": "Die führende B2B-Plattform für die direkte Verbindung mit Tausenden von verifizierten chinesischen Lieferanten",
       "cta": "Jetzt starten",
-      "searchPlaceholder": "Produkt, Marke suchen..."
+      "register": "Registrieren",
+      "searchPlaceholder": "Neue Benutzeroberfläche in Entwicklung..."
     },
     "stats": {
       "products": "Produkte",
-      "suppliers": "verifizierte Lieferanten",
-      "satisfaction": "Kundenzufriedenheit",
-      "response": "durchschnittliche Antwortzeit"
+      "suppliers": "Lieferanten", 
+      "satisfaction": "Zufriedenheit",
+      "response": "Antwort"
+    },
+    "navbar": {
+      "home": "Startseite",
+      "discover": "Entdecken",
+      "dashboard": "Dashboard",
+      "search": "Produkte suchen...",
+      "logout": "Abmelden"
     },
     "categories": {
-      "popular": "Beliebte Kategorien",
-      "popularSubtitle": "Entdecken Sie unsere gefragtesten Kategorien",
       "electronics": "Elektronik",
+      "electronicsExplore": "Erkunden",
       "fashion": "Mode",
+      "fashionExplore": "Erkunden", 
       "home": "Zuhause",
+      "homeExplore": "Erkunden",
       "beauty": "Schönheit",
+      "beautyExplore": "Erkunden",
       "sports": "Sport",
+      "sportsExplore": "Erkunden",
       "automotive": "Automobil",
-      "tools": "Werkzeuge",
-      "toys": "Spielzeug",
-      "books": "Bücher",
-      "music": "Musik",
-      "garden": "Garten",
-      "food": "Lebensmittel"
+      "automotiveExplore": "Erkunden"
     },
-    "benefits": {
-      "title": "Warum Chine ton usine wählen?",
-      "payment": {
-        "title": "Sichere Zahlungen",
-        "description": "Geschützte Transaktionen mit Geld-zurück-Garantie"
-      },
-      "delivery": {
-        "title": "Weltweite Lieferung",
-        "description": "Schneller und zuverlässiger Versand weltweit"
-      },
-      "support": {
-        "title": "24/7 Support",
-        "description": "Mehrsprachige Unterstützung jederzeit verfügbar"
-      }
-    },
-    "how": {
+    "process": {
       "title": "Wie funktioniert es?",
-      "subtitle": "Finden Sie Ihre Fabrik in China in nur 3 Schritten",
+      "subtitle": "Drei einfache Schritte zur Bestellung aus China",
       "step1": {
-        "title": "1. Suchen",
-        "description": "Durchsuchen Sie unseren Katalog mit Tausenden von verifizierten Produkten und Lieferanten"
+        "title": "Sichere Zahlung",
+        "description": "24/7 Kundensupport"
       },
       "step2": {
-        "title": "2. Kontaktieren",
-        "description": "Treten Sie in direkten Kontakt mit zuverlässigen chinesischen Fabriken"
+        "title": "Schneller Versand",
+        "description": "Zuverlässige Logistik"
       },
       "step3": {
-        "title": "3. Bestellen",
-        "description": "Verhandeln Sie Ihre Preise und bestellen Sie mit Vertrauen"
-      },
-      "cta": "Konto erstellen"
-    },
-    "final": {
-      "title": "Bereit, Ihr Geschäft zu erweitern?",
-      "subtitle": "Schließen Sie sich Tausenden von Unternehmen an, die uns vertrauen",
-      "button": "Mein kostenloses Konto erstellen"
+        "title": "24/7 Support",
+        "description": "Zahlen Sie mit Vertrauen"
+      }
     }
   },
   "footer": {
