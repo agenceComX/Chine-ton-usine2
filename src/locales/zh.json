@@ -25,7 +25,17 @@
   "homepage": {
     "title": "Chine ton usine",
     "subtitle": "直接连接经过验证的制造商",
+    "navbar": {
+      "home": "首页",
+      "discover": "发现", 
+      "dashboard": "仪表板",
+      "search": "搜索产品...",
+      "logout": "退出"
+    },
     "hero": {
+      "title": "Chine ton usine",
+      "subtitle": "直接连接经过验证的制造商",
+      "description": "直接连接经过验证的制造商",
       "cta": "立即开始",
       "register": "注册",
       "searchPlaceholder": "新界面开发中..."
@@ -36,14 +46,9 @@
       "satisfaction": "满意度",
       "response": "响应"
     },
-    "navbar": {
-      "home": "首页",
-      "discover": "发现",
-      "dashboard": "仪表板",
-      "search": "搜索产品...",
-      "logout": "退出"
-    },
     "categories": {
+      "title": "热门类别",
+      "subtitle": "探索我们的主要类别",
       "electronics": "电子产品",
       "electronicsExplore": "探索",
       "fashion": "时尚",
@@ -56,6 +61,26 @@
       "sportsExplore": "探索",
       "automotive": "汽车",
       "automotiveExplore": "探索"
+    },
+    "benefits": {
+      "title": "为什么选择我们？",
+      "subtitle": "我们平台的优势",
+      "payment": {
+        "title": "安全付款",
+        "description": "安全交易，提供保护"
+      },
+      "delivery": {
+        "title": "快速发货",
+        "description": "可靠高效的物流"
+      },
+      "support": {
+        "title": "24/7客服",
+        "description": "24小时客户服务支持"
+      }
+    },
+    "how": {
+      "title": "如何运作？",
+      "subtitle": "从中国订购的三个简单步骤"
     },
     "process": {
       "title": "如何运作？",
@@ -72,6 +97,11 @@
         "title": "24/7客服",
         "description": "安心付款"
       }
+    },
+    "final": {
+      "title": "准备好发展您的业务了吗？",
+      "subtitle": "今天就开始从中国进口",
+      "button": "免费创建账户"
     }
   },
   "footer": {

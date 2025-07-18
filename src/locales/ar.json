@@ -25,7 +25,17 @@
   "homepage": {
     "title": "Chine ton usine",
     "subtitle": "اتصل مباشرة مع المصنعين المعتمدين",
+    "navbar": {
+      "home": "الرئيسية",
+      "discover": "اكتشف", 
+      "dashboard": "لوحة التحكم",
+      "search": "البحث عن المنتجات...",
+      "logout": "تسجيل الخروج"
+    },
     "hero": {
+      "title": "Chine ton usine",
+      "subtitle": "اتصل مباشرة مع المصنعين المعتمدين",
+      "description": "اتصل مباشرة مع المصنعين المعتمدين",
       "cta": "ابدأ الآن",
       "register": "تسجيل",
       "searchPlaceholder": "واجهة جديدة قيد التطوير..."
@@ -36,14 +46,9 @@
       "satisfaction": "الرضا",
       "response": "الاستجابة"
     },
-    "navbar": {
-      "home": "الرئيسية",
-      "discover": "اكتشف",
-      "dashboard": "لوحة التحكم",
-      "search": "البحث عن المنتجات...",
-      "logout": "تسجيل الخروج"
-    },
     "categories": {
+      "title": "الفئات الشائعة",
+      "subtitle": "استكشف فئاتنا الرئيسية",
       "electronics": "إلكترونيات",
       "electronicsExplore": "استكشف",
       "fashion": "موضة",
@@ -56,6 +61,26 @@
       "sportsExplore": "استكشف",
       "automotive": "سيارات",
       "automotiveExplore": "استكشف"
+    },
+    "benefits": {
+      "title": "لماذا تختارنا؟",
+      "subtitle": "مزايا منصتنا",
+      "payment": {
+        "title": "دفع آمن",
+        "description": "معاملات آمنة مع الحماية"
+      },
+      "delivery": {
+        "title": "توصيل سريع",
+        "description": "خدمات لوجستية موثوقة وفعالة"
+      },
+      "support": {
+        "title": "دعم 24/7",
+        "description": "مساعدة العملاء متاحة على مدار الساعة"
+      }
+    },
+    "how": {
+      "title": "كيف يعمل؟",
+      "subtitle": "ثلاث خطوات بسيطة للطلب من الصين"
     },
     "process": {
       "title": "كيف يعمل؟",
@@ -72,6 +97,11 @@
         "title": "دعم 24/7",
         "description": "ادفع بثقة"
       }
+    },
+    "final": {
+      "title": "هل أنت مستعد لتنمية عملك؟",
+      "subtitle": "ابدأ الاستيراد من الصين اليوم",
+      "button": "إنشاء حساب مجاني"
     }
   },
   "footer": {

@@ -25,7 +25,17 @@
   "homepage": {
     "title": "Chine ton usine",
     "subtitle": "Connectez-vous directement avec des fabricants vérifiés",
+    "navbar": {
+      "home": "首页",
+      "discover": "发现", 
+      "dashboard": "仪表板",
+      "search": "搜索产品...",
+      "logout": "退出"
+    },
     "hero": {
+      "title": "Chine ton usine",
+      "subtitle": "Connectez-vous directement avec des fabricants vérifiés",
+      "description": "Connectez-vous directement avec des fabricants vérifiés",
       "cta": "Commencer maintenant",
       "register": "注册",
       "searchPlaceholder": "新界面开发中..."
@@ -36,14 +46,9 @@
       "satisfaction": "满意度",
       "response": "响应"
     },
-    "navbar": {
-      "home": "首页",
-      "discover": "发现",
-      "dashboard": "仪表板",
-      "search": "搜索产品...",
-      "logout": "退出"
-    },
     "categories": {
+      "title": "Catégories populaires",
+      "subtitle": "Explorez nos catégories principales",
       "electronics": "Électronique",
       "electronicsExplore": "探索",
       "fashion": "Mode",
@@ -56,6 +61,26 @@
       "sportsExplore": "探索",
       "automotive": "Automobile",
       "automotiveExplore": "探索"
+    },
+    "benefits": {
+      "title": "Pourquoi nous choisir ?",
+      "subtitle": "Les avantages de notre plateforme",
+      "payment": {
+        "title": "Paiement sécurisé",
+        "description": "Transactions sécurisées avec protection"
+      },
+      "delivery": {
+        "title": "Livraison rapide",
+        "description": "Logistique fiable et efficace"
+      },
+      "support": {
+        "title": "Support 24/7",
+        "description": "Assistance client disponible 24h/24"
+      }
+    },
+    "how": {
+      "title": "Comment ça marche ?",
+      "subtitle": "Trois étapes simples pour commander depuis la Chine"
     },
     "process": {
       "title": "Comment ça marche ?",
@@ -72,6 +97,11 @@
         "title": "24/7客服",
         "description": "Payez en toute confiance"
       }
+    },
+    "final": {
+      "title": "Prêt à développer votre business ?",
+      "subtitle": "Commencez à importer depuis la Chine dès aujourd'hui",
+      "button": "Créer un compte gratuitement"
     }
   },
   "footer": {

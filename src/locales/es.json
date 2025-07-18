@@ -25,7 +25,17 @@
   "homepage": {
     "title": "Chine ton usine",
     "subtitle": "Conéctate directamente con fabricantes verificados",
+    "navbar": {
+      "home": "Inicio",
+      "discover": "Descubrir", 
+      "dashboard": "Panel",
+      "search": "Buscar productos...",
+      "logout": "Cerrar sesión"
+    },
     "hero": {
+      "title": "Chine ton usine",
+      "subtitle": "Conéctate directamente con fabricantes verificados",
+      "description": "Conéctate directamente con fabricantes verificados",
       "cta": "Empezar ahora",
       "register": "Registrarse",
       "searchPlaceholder": "Nueva interfaz en desarrollo..."
@@ -36,14 +46,9 @@
       "satisfaction": "Satisfacción",
       "response": "Respuesta"
     },
-    "navbar": {
-      "home": "Inicio",
-      "discover": "Descubrir",
-      "dashboard": "Panel",
-      "search": "Buscar productos...",
-      "logout": "Cerrar sesión"
-    },
     "categories": {
+      "title": "Categorías Populares",
+      "subtitle": "Explora nuestras categorías principales",
       "electronics": "Electrónicos",
       "electronicsExplore": "Explorar",
       "fashion": "Moda",
@@ -56,6 +61,26 @@
       "sportsExplore": "Explorar",
       "automotive": "Automotriz",
       "automotiveExplore": "Explorar"
+    },
+    "benefits": {
+      "title": "¿Por qué elegirnos?",
+      "subtitle": "Las ventajas de nuestra plataforma",
+      "payment": {
+        "title": "Pago Seguro",
+        "description": "Transacciones seguras con protección"
+      },
+      "delivery": {
+        "title": "Entrega Rápida",
+        "description": "Logística confiable y eficiente"
+      },
+      "support": {
+        "title": "Soporte 24/7",
+        "description": "Asistencia al cliente disponible 24/7"
+      }
+    },
+    "how": {
+      "title": "¿Cómo funciona?",
+      "subtitle": "Tres pasos simples para ordenar desde China"
     },
     "process": {
       "title": "¿Cómo funciona?",
@@ -72,6 +97,11 @@
         "title": "Soporte 24/7",
         "description": "Paga con confianza"
       }
+    },
+    "final": {
+      "title": "¿Listo para hacer crecer tu negocio?",
+      "subtitle": "Comienza a importar desde China hoy",
+      "button": "Crear una cuenta gratuita"
     }
   },
   "footer": {

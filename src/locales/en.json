@@ -25,7 +25,17 @@
   "homepage": {
     "title": "Chine ton usine",
     "subtitle": "Connect directly with verified manufacturers",
+    "navbar": {
+      "home": "Home",
+      "discover": "Discover", 
+      "dashboard": "Dashboard",
+      "search": "Search products...",
+      "logout": "Logout"
+    },
     "hero": {
+      "title": "Chine ton usine",
+      "subtitle": "Connect directly with verified manufacturers",
+      "description": "Connect directly with verified manufacturers",
       "cta": "Get started now",
       "register": "Register",
       "searchPlaceholder": "New interface in development..."
@@ -36,14 +46,9 @@
       "satisfaction": "Satisfaction",
       "response": "Response"
     },
-    "navbar": {
-      "home": "Home",
-      "discover": "Discover",
-      "dashboard": "Dashboard",
-      "search": "Search products...",
-      "logout": "Logout"
-    },
     "categories": {
+      "title": "Popular Categories",
+      "subtitle": "Explore our main categories",
       "electronics": "Electronics",
       "electronicsExplore": "Explore",
       "fashion": "Fashion",
@@ -56,6 +61,26 @@
       "sportsExplore": "Explore",
       "automotive": "Automotive",
       "automotiveExplore": "Explore"
+    },
+    "benefits": {
+      "title": "Why choose us?",
+      "subtitle": "The advantages of our platform",
+      "payment": {
+        "title": "Secure Payment",
+        "description": "Secure transactions with protection"
+      },
+      "delivery": {
+        "title": "Fast Delivery",
+        "description": "Reliable and efficient logistics"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Customer assistance available 24/7"
+      }
+    },
+    "how": {
+      "title": "How does it work?",
+      "subtitle": "Three simple steps to order from China"
     },
     "process": {
       "title": "How does it work?",
@@ -72,6 +97,11 @@
         "title": "24/7 Support",
         "description": "Pay with confidence"
       }
+    },
+    "final": {
+      "title": "Ready to grow your business?",
+      "subtitle": "Start importing from China today",
+      "button": "Create a free account"
     }
   },
   "footer": {

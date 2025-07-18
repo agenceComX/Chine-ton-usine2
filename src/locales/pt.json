@@ -25,7 +25,17 @@
   "homepage": {
     "title": "Chine ton usine",
     "subtitle": "Conecte-se diretamente com fabricantes verificados",
+    "navbar": {
+      "home": "Início",
+      "discover": "Descobrir", 
+      "dashboard": "Painel",
+      "search": "Pesquisar produtos...",
+      "logout": "Sair"
+    },
     "hero": {
+      "title": "Chine ton usine",
+      "subtitle": "Conecte-se diretamente com fabricantes verificados",
+      "description": "Conecte-se diretamente com fabricantes verificados",
       "cta": "Começar agora",
       "register": "Registrar",
       "searchPlaceholder": "Nova interface em desenvolvimento..."
@@ -36,14 +46,9 @@
       "satisfaction": "Satisfação",
       "response": "Resposta"
     },
-    "navbar": {
-      "home": "Início",
-      "discover": "Descobrir",
-      "dashboard": "Painel",
-      "search": "Pesquisar produtos...",
-      "logout": "Sair"
-    },
     "categories": {
+      "title": "Categorias Populares",
+      "subtitle": "Explore nossas categorias principais",
       "electronics": "Eletrônicos",
       "electronicsExplore": "Explorar",
       "fashion": "Moda",
@@ -56,6 +61,26 @@
       "sportsExplore": "Explorar",
       "automotive": "Automotivo",
       "automotiveExplore": "Explorar"
+    },
+    "benefits": {
+      "title": "Por que nos escolher?",
+      "subtitle": "As vantagens da nossa plataforma",
+      "payment": {
+        "title": "Pagamento Seguro",
+        "description": "Transações seguras com proteção"
+      },
+      "delivery": {
+        "title": "Entrega Rápida",
+        "description": "Logística confiável e eficiente"
+      },
+      "support": {
+        "title": "Suporte 24/7",
+        "description": "Assistência ao cliente disponível 24/7"
+      }
+    },
+    "how": {
+      "title": "Como funciona?",
+      "subtitle": "Três passos simples para encomendar da China"
     },
     "process": {
       "title": "Como funciona?",
@@ -72,6 +97,11 @@
         "title": "Suporte 24/7",
         "description": "Pague com confiança"
       }
+    },
+    "final": {
+      "title": "Pronto para fazer crescer o seu negócio?",
+      "subtitle": "Comece a importar da China hoje",
+      "button": "Criar uma conta gratuita"
     }
   },
   "footer": {

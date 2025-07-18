@@ -25,7 +25,17 @@
   "homepage": {
     "title": "Chine ton usine",
     "subtitle": "Verbinden Sie sich direkt mit verifizierten Herstellern",
+    "navbar": {
+      "home": "Startseite",
+      "discover": "Entdecken", 
+      "dashboard": "Dashboard",
+      "search": "Produkte suchen...",
+      "logout": "Abmelden"
+    },
     "hero": {
+      "title": "Chine ton usine",
+      "subtitle": "Verbinden Sie sich direkt mit verifizierten Herstellern",
+      "description": "Verbinden Sie sich direkt mit verifizierten Herstellern",
       "cta": "Jetzt starten",
       "register": "Registrieren",
       "searchPlaceholder": "Neue Benutzeroberfläche in Entwicklung..."
@@ -36,14 +46,9 @@
       "satisfaction": "Zufriedenheit",
       "response": "Antwort"
     },
-    "navbar": {
-      "home": "Startseite",
-      "discover": "Entdecken",
-      "dashboard": "Dashboard",
-      "search": "Produkte suchen...",
-      "logout": "Abmelden"
-    },
     "categories": {
+      "title": "Beliebte Kategorien",
+      "subtitle": "Entdecken Sie unsere Hauptkategorien",
       "electronics": "Elektronik",
       "electronicsExplore": "Erkunden",
       "fashion": "Mode",
@@ -56,6 +61,26 @@
       "sportsExplore": "Erkunden",
       "automotive": "Automobil",
       "automotiveExplore": "Erkunden"
+    },
+    "benefits": {
+      "title": "Warum uns wählen?",
+      "subtitle": "Die Vorteile unserer Plattform",
+      "payment": {
+        "title": "Sichere Zahlung",
+        "description": "Sichere Transaktionen mit Schutz"
+      },
+      "delivery": {
+        "title": "Schnelle Lieferung",
+        "description": "Zuverlässige und effiziente Logistik"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Kundenhilfe rund um die Uhr verfügbar"
+      }
+    },
+    "how": {
+      "title": "Wie funktioniert es?",
+      "subtitle": "Drei einfache Schritte zur Bestellung aus China"
     },
     "process": {
       "title": "Wie funktioniert es?",
@@ -72,6 +97,11 @@
         "title": "24/7 Support",
         "description": "Zahlen Sie mit Vertrauen"
       }
+    },
+    "final": {
+      "title": "Bereit, Ihr Geschäft auszubauen?",
+      "subtitle": "Beginnen Sie noch heute mit dem Import aus China",
+      "button": "Kostenloses Konto erstellen"
     }
   },
   "footer": {
