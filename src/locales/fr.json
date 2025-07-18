@@ -25,7 +25,13 @@
   "homepage": {
     "title": "Chine ton usine",
     "title": "Chine ton usine",
-    "subtitle": "Connectez-vous directement avec des fabricants vérifiés",
+    "hero": {
+      "title": "Chine ton usine",
+      "subtitle": "Connectez-vous directement avec des fabricants vérifiés",
+      "description": "Connectez-vous directement avec des fabricants vérifiés et découvrez des milliers de produits de qualité",
+      "cta": "Commencer maintenant",
+      "searchPlaceholder": "Rechercher des produits, marques..."
+    },
     "navbar": {
       "home": "首页",
       "discover": "发现", 

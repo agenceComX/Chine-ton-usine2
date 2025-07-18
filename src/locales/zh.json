@@ -25,7 +25,13 @@
   "homepage": {
     "title": "Chine ton usine",
     "title": "Chine ton usine",
-    "subtitle": "直接连接经过验证的制造商",
+    "hero": {
+      "title": "Chine ton usine",
+      "subtitle": "直接连接经过验证的制造商",
+      "description": "直接连接经过验证的制造商，发现数千种优质产品",
+      "cta": "立即开始",
+      "searchPlaceholder": "搜索产品、品牌..."
+    },
     "navbar": {
       "home": "首页",
       "discover": "发现", 

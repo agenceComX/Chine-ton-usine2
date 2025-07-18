@@ -25,7 +25,13 @@
   "homepage": {
     "title": "Chine ton usine",
     "title": "Chine ton usine",
-    "subtitle": "Conecte-se diretamente com fabricantes verificados",
+    "hero": {
+      "title": "Chine ton usine",
+      "subtitle": "Conecte-se diretamente com fabricantes verificados",
+      "description": "Conecte-se diretamente com fabricantes verificados e descubra milhares de produtos de qualidade",
+      "cta": "Começar agora",
+      "searchPlaceholder": "Pesquisar produtos, marcas..."
+    },
     "navbar": {
       "home": "Início",
       "discover": "Descobrir", 

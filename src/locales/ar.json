@@ -25,7 +25,13 @@
   "homepage": {
     "title": "Chine ton usine",
     "title": "Chine ton usine",
-    "subtitle": "اتصل مباشرة مع المصنعين المعتمدين",
+    "hero": {
+      "title": "Chine ton usine",
+      "subtitle": "اتصل مباشرة مع المصنعين المعتمدين",
+      "description": "اتصل مباشرة مع المصنعين المعتمدين واكتشف آلاف المنتجات عالية الجودة",
+      "cta": "ابدأ الآن",
+      "searchPlaceholder": "البحث عن المنتجات والعلامات التجارية..."
+    },
     "navbar": {
       "home": "الرئيسية",
       "discover": "اكتشف", 
