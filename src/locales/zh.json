@@ -1,0 +1,169 @@
+{
+  "navigation": {
+    "home": "首页",
+    "dashboard": "仪表盘",
+    "products": "产品",
+    "discover": "发现",
+    "profile": "个人资料",
+    "logout": "退出登录",
+    "login": "登录",
+    "help": "帮助",
+    "about": "关于我们",
+    "contact": "联系"
+  },
+  "auth": {
+    "email": "邮箱",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "login": "登录",
+    "register": "注册",
+    "loginDescription": "登录以访问您的账户",
+    "registerDescription": "创建您的账户以开始",
+    "forgotPassword": "忘记密码？",
+    "rememberMe": "记住我"
+  },
+  "errors": {
+    "generic": "发生错误",
+    "network": "网络错误",
+    "notFound": "页面未找到",
+    "unauthorized": "未授权",
+    "forbidden": "禁止访问",
+    "serverError": "服务器错误",
+    "required": "此字段为必填项",
+    "invalidEmail": "无效的邮箱地址"
+  },
+  "dashboard": {
+    "welcome": "欢迎",
+    "overview": "概览",
+    "recentActivity": "最近活动",
+    "quickActions": "快捷操作",
+    "statistics": "统计数据",
+    "notifications": "通知",
+    "settings": "设置"
+  },
+  "products": {
+    "title": "我们的产品",
+    "description": "发现我们优质的产品。",
+    "features": {
+      "eco": "环保",
+      "new": "新品",
+      "bestseller": "畅销"
+    }
+  },
+  "notifications": {
+    "title": "通知",
+    "markAsRead": "标记为已读",
+    "markAllAsRead": "全部标记为已读",
+    "noNotifications": "暂无通知",
+    "new": "新",
+    "settings": "通知设置"
+  },
+  "static": {
+    "help": "需要帮助？",
+    "terms": "使用条款"
+  },
+  "dynamic": {
+    "date": "{date, date, long}",
+    "currency": "{value, number, currency}"
+  },
+  "admin": {
+    "diagnostic": {
+      "launch": "启动诊断",
+      "running": "诊断中...",
+      "testAdminLogin": "测试管理员登录",
+      "testAdminLoginRunning": "登录中...",
+      "autoFix": "自动修复",
+      "autoFixRunning": "修复中...",
+      "resultsTitle": "结果：",
+      "instructionsTitle": "操作说明：",
+      "instructionsList": [
+        "1. 输入 admin@chinetonusine.com 的密码",
+        "2. 点击\"测试管理员登录\"进行登录",
+        "3. 如果重定向失败，点击\"自动修复\"",
+        "4. 注销并重新登录以测试"
+      ]
+    },
+    "creation": {
+      "instructionsTitle": "📋 操作说明：",
+      "instructionsList": [
+        "1. 默认账户：创建 admin@chinetonusine.com / admin123456",
+        "2. 自定义账户：编辑字段后创建",
+        "3. 测试账户：创建 3 个不同的管理员账户",
+        "4. 创建后：注销并重新登录",
+        "5. 验证：自动重定向到 /admin/dashboard"
+      ],
+      "consoleTitle": "🔧 控制台 (F12)：",
+      "consoleCommands": [
+        "await AdminCreation.createDefaultAdminAccount()",
+        "await AdminCreation.createTestAdminAccounts()"
+      ]
+    }
+  },
+  "categories": {
+    "home": "首页",
+    "electronics": "电子产品",
+    "textile": "纺织品",
+    "homeAndGarden": "家居与花园",
+    "machinery": "机械",
+    "automotive": "汽车",
+    "toys": "玩具",
+    "beauty": "美妆",
+    "sports": "运动",
+    "food": "食品",
+    "medical": "医疗",
+    "sourcingPro": "专业采购",
+    "technology": "科技",
+    "fashionClothing": "时尚与服装",
+    "industrialEquipment": "工业设备",
+    "decorationAndFurniture": "装饰与家具",
+    "educationalAndLudic": "教育与娱乐",
+    "partsAndAccessories": "零件与配件"
+  },
+  "brands": {
+    "electronics": "电子产品",
+    "textile": "纺织品",
+    "machinery": "机械",
+    "homeAndGarden": "家居与花园",
+    "toys": "玩具与儿童",
+    "automotive": "汽车与摩托"
+  },
+  "cards": {
+    "componentsGadgets": "组件与小工具",
+    "premiumManufacturing": "高端制造",
+    "performanceInnovation": "性能与创新",
+    "designComfort": "设计与舒适",
+    "certifiedQuality": "认证品质",
+    "qualityPieces": "优质零件"
+  },
+  "menu": "菜单",
+  "ctaButton": "立即开始",
+  "willPleasure": "让您满意",
+  "pleasure": "满意",
+  "homepage": {
+    "hero": {
+      "cta": "立即开始"
+    },
+    "how": {
+      "title": "如何运作？",
+      "subtitle": "三步轻松从中国下单",
+      "step1": {
+        "title": "1. 搜索",
+        "description": "在数千种产品中找到理想商品"
+      },
+      "step2": {
+        "title": "2. 联系",
+        "description": "直接与认证供应商交流"
+      },
+      "step3": {
+        "title": "3. 下单",
+        "description": "安全完成您的购买"
+      },
+      "cta": "立即开始"
+    },
+    "final": {
+      "title": "准备好开始了吗？",
+      "subtitle": "加入数千家信任我们平台的企业",
+      "button": "创建我的账户"
+    }
+  }
+} 

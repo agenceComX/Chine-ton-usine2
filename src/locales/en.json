@@ -1,0 +1,147 @@
+{
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "discover": "Discover",
+    "profile": "Profile",
+    "logout": "Logout",
+    "login": "Login",
+    "help": "Help",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "login": "Login",
+    "register": "Register",
+    "loginDescription": "Log in to access your account",
+    "registerDescription": "Create your account to get started",
+    "forgotPassword": "Forgot password?",
+    "rememberMe": "Remember me"
+  },
+  "errors": {
+    "generic": "An error occurred",
+    "network": "Network error",
+    "notFound": "Page not found",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Access forbidden",
+    "serverError": "Server error",
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address"
+  },
+  "dashboard": {
+    "welcome": "Welcome",
+    "overview": "Overview",
+    "recentActivity": "Recent activity",
+    "quickActions": "Quick actions",
+    "statistics": "Statistics",
+    "notifications": "Notifications",
+    "settings": "Settings"
+  },
+  "products": {
+    "title": "Our products",
+    "description": "Discover our selection of quality products.",
+    "features": {
+      "eco": "Eco-friendly",
+      "new": "New",
+      "bestseller": "Bestseller"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAsRead": "Mark as read",
+    "markAllAsRead": "Mark all as read",
+    "noNotifications": "No notifications",
+    "new": "New",
+    "settings": "Notification settings"
+  },
+  "static": {
+    "help": "Need help?",
+    "terms": "Terms of use"
+  },
+  "dynamic": {
+    "date": "{date, date, long}",
+    "currency": "{value, number, currency}"
+  },
+  "admin": {
+    "diagnostic": {
+      "launch": "Launch Diagnostic",
+      "running": "Diagnosing...",
+      "testAdminLogin": "Test Admin Login",
+      "testAdminLoginRunning": "Logging in...",
+      "autoFix": "Auto Fix",
+      "autoFixRunning": "Fixing...",
+      "resultsTitle": "Results:",
+      "instructionsTitle": "Instructions:",
+      "instructionsList": [
+        "1. Enter the password for admin@chinetonusine.com",
+        "2. Click \"Test Admin Login\" to log in",
+        "3. If redirection fails, click \"Auto Fix\"",
+        "4. Log out and log in again to test"
+      ]
+    },
+    "creation": {
+      "instructionsTitle": "📋 Instructions:",
+      "instructionsList": [
+        "1. Default Account: Creates admin@chinetonusine.com / admin123456",
+        "2. Custom Account: Edit the fields then create",
+        "3. Test Accounts: Creates 3 different admin accounts",
+        "4. After creation: Log out and log in again",
+        "5. Verification: Automatic redirection to /admin/dashboard"
+      ],
+      "consoleTitle": "🔧 Console (F12):",
+      "consoleCommands": [
+        "await AdminCreation.createDefaultAdminAccount()",
+        "await AdminCreation.createTestAdminAccounts()"
+      ]
+    }
+  },
+  "categories": {
+    "home": "Home",
+    "electronics": "Electronics",
+    "textile": "Textile",
+    "homeAndGarden": "Home & Garden",
+    "machinery": "Machinery",
+    "automotive": "Automotive",
+    "toys": "Toys",
+    "beauty": "Beauty",
+    "sports": "Sports",
+    "food": "Food",
+    "medical": "Medical",
+    "sourcingPro": "Sourcing Pro",
+    "technology": "Technology",
+    "fashionClothing": "Fashion & Clothing",
+    "industrialEquipment": "Industrial Equipment",
+    "decorationAndFurniture": "Decoration & Furniture",
+    "educationalAndLudic": "Educational & Playful",
+    "partsAndAccessories": "Parts & Accessories"
+  },
+  "brands": {
+    "electronics": "ELECTRONICS",
+    "textile": "TEXTILE",
+    "machinery": "MACHINERY",
+    "homeAndGarden": "HOME & GARDEN",
+    "toys": "TOYS & KIDS",
+    "automotive": "AUTO & MOTO"
+  },
+  "cards": {
+    "componentsGadgets": "Components & Gadgets",
+    "premiumManufacturing": "Premium Manufacturing",
+    "performanceInnovation": "Performance & Innovation",
+    "designComfort": "Design & Comfort",
+    "certifiedQuality": "Certified Quality",
+    "qualityPieces": "Quality Parts"
+  },
+  "menu": "Menu",
+  "ctaButton": "Get Started",
+  "willPleasure": "WILL PLEASE YOU",
+  "pleasure": "PLEASE",
+  "homepage": {
+    "hero": {
+      "cta": "Get Started"
+    }
+  }
+} 

@@ -419,7 +419,27 @@ const translations: Record<UserLanguage, Record<string, string>> = {
     "status.completed": "Terminé",
     "status.cancelled": "Annulé",
     "status.draft": "Brouillon",
-    "status.published": "Publié"
+    "status.published": "Publié",
+
+    // --- AJOUT DES CLÉS MANQUANTES POUR LA PAGE D'ACCUEIL DANS TOUTES LES LANGUES ---
+    // Pour chaque bloc de langue (fr, en, es, ar, zh, pt, de), je complète les clés manquantes de la page d'accueil
+    // Les valeurs sont traduites ou, à défaut, un placeholder est utilisé
+
+    // Exemple pour le bloc espagnol (à placer dans le bloc 'es')
+    "homepage.title": "Por traducir",
+    "homepage.subtitle": "Por traducir",
+    "homepage.subtitle.highlight": "Por traducir",
+    "homepage.tagline": "Por traducir",
+    "homepage.hero.title": "Por traducir",
+    "homepage.hero.subtitle": "Por traducir",
+    "homepage.hero.cta": "Por traducir",
+    "homepage.cta.title": "Por traducir",
+    "homepage.cta.highlight": "Por traducir",
+    "homepage.cta.subtitle": "Por traducir",
+    "homepage.cta.button": "Por traducir",
+    "homepage.final.title": "Por traducir",
+    "homepage.final.subtitle": "Por traducir",
+    "homepage.final.button": "Por traducir"
   },
 
   en: {
@@ -826,7 +846,27 @@ const translations: Record<UserLanguage, Record<string, string>> = {
     "status.completed": "Completed",
     "status.cancelled": "Cancelled",
     "status.draft": "Draft",
-    "status.published": "Published"
+    "status.published": "Published",
+
+    // --- AJOUT DES CLÉS MANQUANTES POUR LA PAGE D'ACCUEIL DANS TOUTES LES LANGUES ---
+    // Pour chaque bloc de langue (fr, en, es, ar, zh, pt, de), je complète les clés manquantes de la page d'accueil
+    // Les valeurs sont traduites ou, à défaut, un placeholder est utilisé
+
+    // Exemple pour le bloc espagnol (à placer dans le bloc 'es')
+    "homepage.title": "Por traducir",
+    "homepage.subtitle": "Por traducir",
+    "homepage.subtitle.highlight": "Por traducir",
+    "homepage.tagline": "Por traducir",
+    "homepage.hero.title": "Por traducir",
+    "homepage.hero.subtitle": "Por traducir",
+    "homepage.hero.cta": "Por traducir",
+    "homepage.cta.title": "Por traducir",
+    "homepage.cta.highlight": "Por traducir",
+    "homepage.cta.subtitle": "Por traducir",
+    "homepage.cta.button": "Por traducir",
+    "homepage.final.title": "Por traducir",
+    "homepage.final.subtitle": "Por traducir",
+    "homepage.final.button": "Por traducir"
   },
 
   es: {
@@ -1030,7 +1070,27 @@ const translations: Record<UserLanguage, Record<string, string>> = {
     "cbm": "CBM",
     "cancel": "Cancelar",
     "confirm": "Confirmar",
-    "close": "Cerrar"
+    "close": "Cerrar",
+
+    // --- AJOUT DES CLÉS MANQUANTES POUR LA PAGE D'ACCUEIL DANS TOUTES LES LANGUES ---
+    // Pour chaque bloc de langue (fr, en, es, ar, zh, pt, de), je complète les clés manquantes de la page d'accueil
+    // Les valeurs sont traduites ou, à défaut, un placeholder est utilisé
+
+    // Exemple pour le bloc espagnol (à placer dans le bloc 'es')
+    "homepage.title": "Por traducir",
+    "homepage.subtitle": "Por traducir",
+    "homepage.subtitle.highlight": "Por traducir",
+    "homepage.tagline": "Por traducir",
+    "homepage.hero.title": "Por traducir",
+    "homepage.hero.subtitle": "Por traducir",
+    "homepage.hero.cta": "Por traducir",
+    "homepage.cta.title": "Por traducir",
+    "homepage.cta.highlight": "Por traducir",
+    "homepage.cta.subtitle": "Por traducir",
+    "homepage.cta.button": "Por traducir",
+    "homepage.final.title": "Por traducir",
+    "homepage.final.subtitle": "Por traducir",
+    "homepage.final.button": "Por traducir"
   },
 
   ar: {
@@ -1190,7 +1250,27 @@ const translations: Record<UserLanguage, Record<string, string>> = {
     "cbm": "CBM",
     "cancel": "إلغاء",
     "confirm": "تأكيد",
-    "close": "إغلاق"
+    "close": "إغلاق",
+
+    // --- AJOUT DES CLÉS MANQUANTES POUR LA PAGE D'ACCUEIL DANS TOUTES LES LANGUES ---
+    // Pour chaque bloc de langue (fr, en, es, ar, zh, pt, de), je complète les clés manquantes de la page d'accueil
+    // Les valeurs sont traduites ou, à défaut, un placeholder est utilisé
+
+    // Exemple pour le bloc espagnol (à placer dans le bloc 'es')
+    "homepage.title": "Por traducir",
+    "homepage.subtitle": "Por traducir",
+    "homepage.subtitle.highlight": "Por traducir",
+    "homepage.tagline": "Por traducir",
+    "homepage.hero.title": "Por traducir",
+    "homepage.hero.subtitle": "Por traducir",
+    "homepage.hero.cta": "Por traducir",
+    "homepage.cta.title": "Por traducir",
+    "homepage.cta.highlight": "Por traducir",
+    "homepage.cta.subtitle": "Por traducir",
+    "homepage.cta.button": "Por traducir",
+    "homepage.final.title": "Por traducir",
+    "homepage.final.subtitle": "Por traducir",
+    "homepage.final.button": "Por traducir"
   },
 
   zh: {
@@ -1350,7 +1430,27 @@ const translations: Record<UserLanguage, Record<string, string>> = {
     "cbm": "CBM",
     "cancel": "取消",
     "confirm": "确认",
-    "close": "关闭"
+    "close": "关闭",
+
+    // --- AJOUT DES CLÉS MANQUANTES POUR LA PAGE D'ACCUEIL DANS TOUTES LES LANGUES ---
+    // Pour chaque bloc de langue (fr, en, es, ar, zh, pt, de), je complète les clés manquantes de la page d'accueil
+    // Les valeurs sont traduites ou, à défaut, un placeholder est utilisé
+
+    // Exemple pour le bloc espagnol (à placer dans le bloc 'es')
+    "homepage.title": "Por traducir",
+    "homepage.subtitle": "Por traducir",
+    "homepage.subtitle.highlight": "Por traducir",
+    "homepage.tagline": "Por traducir",
+    "homepage.hero.title": "Por traducir",
+    "homepage.hero.subtitle": "Por traducir",
+    "homepage.hero.cta": "Por traducir",
+    "homepage.cta.title": "Por traducir",
+    "homepage.cta.highlight": "Por traducir",
+    "homepage.cta.subtitle": "Por traducir",
+    "homepage.cta.button": "Por traducir",
+    "homepage.final.title": "Por traducir",
+    "homepage.final.subtitle": "Por traducir",
+    "homepage.final.button": "Por traducir"
   },
 
   pt: {
@@ -1510,7 +1610,27 @@ const translations: Record<UserLanguage, Record<string, string>> = {
     "cbm": "CBM",
     "cancel": "Cancelar",
     "confirm": "Confirmar",
-    "close": "Fechar"
+    "close": "Fechar",
+
+    // --- AJOUT DES CLÉS MANQUANTES POUR LA PAGE D'ACCUEIL DANS TOUTES LES LANGUES ---
+    // Pour chaque bloc de langue (fr, en, es, ar, zh, pt, de), je complète les clés manquantes de la page d'accueil
+    // Les valeurs sont traduites ou, à défaut, un placeholder est utilisé
+
+    // Exemple pour le bloc espagnol (à placer dans le bloc 'es')
+    "homepage.title": "Por traducir",
+    "homepage.subtitle": "Por traducir",
+    "homepage.subtitle.highlight": "Por traducir",
+    "homepage.tagline": "Por traducir",
+    "homepage.hero.title": "Por traducir",
+    "homepage.hero.subtitle": "Por traducir",
+    "homepage.hero.cta": "Por traducir",
+    "homepage.cta.title": "Por traducir",
+    "homepage.cta.highlight": "Por traducir",
+    "homepage.cta.subtitle": "Por traducir",
+    "homepage.cta.button": "Por traducir",
+    "homepage.final.title": "Por traducir",
+    "homepage.final.subtitle": "Por traducir",
+    "homepage.final.button": "Por traducir"
   },
 
   de: {
@@ -1670,7 +1790,27 @@ const translations: Record<UserLanguage, Record<string, string>> = {
     "cbm": "CBM",
     "cancel": "Abbrechen",
     "confirm": "Bestätigen",
-    "close": "Schließen"
+    "close": "Schließen",
+
+    // --- AJOUT DES CLÉS MANQUANTES POUR LA PAGE D'ACCUEIL DANS TOUTES LES LANGUES ---
+    // Pour chaque bloc de langue (fr, en, es, ar, zh, pt, de), je complète les clés manquantes de la page d'accueil
+    // Les valeurs sont traduites ou, à défaut, un placeholder est utilisé
+
+    // Exemple pour le bloc espagnol (à placer dans le bloc 'es')
+    "homepage.title": "Por traducir",
+    "homepage.subtitle": "Por traducir",
+    "homepage.subtitle.highlight": "Por traducir",
+    "homepage.tagline": "Por traducir",
+    "homepage.hero.title": "Por traducir",
+    "homepage.hero.subtitle": "Por traducir",
+    "homepage.hero.cta": "Por traducir",
+    "homepage.cta.title": "Por traducir",
+    "homepage.cta.highlight": "Por traducir",
+    "homepage.cta.subtitle": "Por traducir",
+    "homepage.cta.button": "Por traducir",
+    "homepage.final.title": "Por traducir",
+    "homepage.final.subtitle": "Por traducir",
+    "homepage.final.button": "Por traducir"
   }
 };
 

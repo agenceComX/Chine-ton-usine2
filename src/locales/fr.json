@@ -1,0 +1,147 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "dashboard": "Tableau de bord",
+    "products": "Produits",
+    "discover": "Découvrir",
+    "profile": "Profil",
+    "logout": "Déconnexion",
+    "login": "Connexion",
+    "help": "Aide",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "login": "Connexion",
+    "register": "Inscription",
+    "loginDescription": "Connectez-vous pour accéder à votre compte",
+    "registerDescription": "Créez votre compte pour commencer",
+    "forgotPassword": "Mot de passe oublié ?",
+    "rememberMe": "Se souvenir de moi"
+  },
+  "errors": {
+    "generic": "Une erreur s'est produite",
+    "network": "Erreur de réseau",
+    "notFound": "Page non trouvée",
+    "unauthorized": "Non autorisé",
+    "forbidden": "Accès interdit",
+    "serverError": "Erreur serveur",
+    "required": "Ce champ est requis",
+    "invalidEmail": "Adresse e-mail invalide"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue",
+    "overview": "Aperçu",
+    "recentActivity": "Activité récente",
+    "quickActions": "Actions rapides",
+    "statistics": "Statistiques",
+    "notifications": "Notifications",
+    "settings": "Paramètres"
+  },
+  "products": {
+    "title": "Nos produits",
+    "description": "Découvrez notre sélection de produits de qualité.",
+    "features": {
+      "eco": "Écologique",
+      "new": "Nouveau",
+      "bestseller": "Meilleure vente"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAsRead": "Marquer comme lu",
+    "markAllAsRead": "Tout marquer comme lu",
+    "noNotifications": "Aucune notification",
+    "new": "Nouveau",
+    "settings": "Paramètres de notification"
+  },
+  "static": {
+    "help": "Besoin d’aide ?",
+    "terms": "Conditions d’utilisation"
+  },
+  "dynamic": {
+    "date": "{date, date, long}",
+    "currency": "{value, number, currency}"
+  },
+  "admin": {
+    "diagnostic": {
+      "launch": "Lancer Diagnostic",
+      "running": "Diagnostic...",
+      "testAdminLogin": "Test Connexion Admin",
+      "testAdminLoginRunning": "Connexion...",
+      "autoFix": "Correction Auto",
+      "autoFixRunning": "Correction...",
+      "resultsTitle": "Résultats :",
+      "instructionsTitle": "Instructions :",
+      "instructionsList": [
+        "1. Entrez le mot de passe de admin@chinetonusine.com",
+        "2. Cliquez sur \"Test Connexion Admin\" pour vous connecter",
+        "3. Si la redirection ne fonctionne pas, cliquez sur \"Correction Auto\"",
+        "4. Déconnectez-vous et reconnectez-vous pour tester"
+      ]
+    },
+    "creation": {
+      "instructionsTitle": "📋 Instructions :",
+      "instructionsList": [
+        "1. Compte Par Défaut : Crée admin@chinetonusine.com / admin123456",
+        "2. Compte Personnalisé : Modifiez les champs puis créez",
+        "3. Comptes Test : Crée 3 comptes admin différents",
+        "4. Après création : Déconnectez-vous et reconnectez-vous",
+        "5. Vérification : Redirection automatique vers /admin/dashboard"
+      ],
+      "consoleTitle": "🔧 Console (F12) :",
+      "consoleCommands": [
+        "await AdminCreation.createDefaultAdminAccount()",
+        "await AdminCreation.createTestAdminAccounts()"
+      ]
+    }
+  },
+  "categories": {
+    "home": "Accueil",
+    "electronics": "Électronique",
+    "textile": "Textile",
+    "homeAndGarden": "Maison & Jardin",
+    "machinery": "Machinerie",
+    "automotive": "Automobile",
+    "toys": "Jouets",
+    "beauty": "Beauté",
+    "sports": "Sport",
+    "food": "Alimentaire",
+    "medical": "Médical",
+    "sourcingPro": "Sourcing Pro",
+    "technology": "Technologie",
+    "fashionClothing": "Mode & Vêtements",
+    "industrialEquipment": "Équipement Industriel",
+    "decorationAndFurniture": "Décoration & Mobilier",
+    "educationalAndLudic": "Éducatif & Ludique",
+    "partsAndAccessories": "Pièces & Accessoires"
+  },
+  "brands": {
+    "electronics": "ÉLECTRONIQUE",
+    "textile": "TEXTILE",
+    "machinery": "MACHINERIE",
+    "homeAndGarden": "MAISON & JARDIN",
+    "toys": "JOUETS & ENFANTS",
+    "automotive": "AUTO & MOTO"
+  },
+  "cards": {
+    "componentsGadgets": "Composants & Gadgets",
+    "premiumManufacturing": "Fabrication Premium",
+    "performanceInnovation": "Performance & Innovation",
+    "designComfort": "Design & Confort",
+    "certifiedQuality": "Qualité Certifiée",
+    "qualityPieces": "Pièces de Qualité"
+  },
+  "menu": "Menu",
+  "homepage": {
+    "hero": {
+      "cta": "commencer maintenant"
+    }
+  },
+  "ctaButton": "Commencer maintenant",
+  "willPleasure": "ÇA VA VOUS",
+  "pleasure": "PLAIRE"
+} 
