@@ -22,126 +22,96 @@
     "forgotPassword": "¿Olvidaste tu contraseña?",
     "rememberMe": "Recuérdame"
   },
-  "errors": {
-    "generic": "Ocurrió un error",
-    "network": "Error de red",
-    "notFound": "Página no encontrada",
-    "unauthorized": "No autorizado",
-    "forbidden": "Acceso prohibido",
-    "serverError": "Error del servidor",
-    "required": "Este campo es obligatorio",
-    "invalidEmail": "Correo electrónico inválido"
-  },
-  "dashboard": {
-    "welcome": "Bienvenido",
-    "overview": "Resumen",
-    "recentActivity": "Actividad reciente",
-    "quickActions": "Acciones rápidas",
-    "statistics": "Estadísticas",
-    "notifications": "Notificaciones",
-    "settings": "Configuraciones"
-  },
-  "products": {
-    "title": "Nuestros productos",
-    "description": "Descubre nuestra selección de productos de calidad.",
-    "features": {
-      "eco": "Ecológico",
-      "new": "Nuevo",
-      "bestseller": "Más vendido"
-    }
-  },
-  "notifications": {
-    "title": "Notificaciones",
-    "markAsRead": "Marcar como leído",
-    "markAllAsRead": "Marcar todo como leído",
-    "noNotifications": "Sin notificaciones",
-    "new": "Nuevo",
-    "settings": "Configuración de notificaciones"
-  },
-  "static": {
-    "help": "¿Necesitas ayuda?",
-    "terms": "Términos de uso"
-  },
-  "dynamic": {
-    "date": "{date, date, long}",
-    "currency": "{value, number, currency}"
-  },
-  "admin": {
-    "diagnostic": {
-      "launch": "Iniciar diagnóstico",
-      "running": "Diagnosticando...",
-      "testAdminLogin": "Probar inicio de sesión admin",
-      "testAdminLoginRunning": "Iniciando sesión...",
-      "autoFix": "Corrección automática",
-      "autoFixRunning": "Corrigiendo...",
-      "resultsTitle": "Resultados:",
-      "instructionsTitle": "Instrucciones:",
-      "instructionsList": [
-        "1. Introduce la contraseña de admin@chinetonusine.com",
-        "2. Haz clic en \"Probar inicio de sesión admin\" para iniciar sesión",
-        "3. Si la redirección falla, haz clic en \"Corrección automática\"",
-        "4. Cierra sesión y vuelve a iniciar para probar"
-      ]
-    },
-    "creation": {
-      "instructionsTitle": "📋 Instrucciones:",
-      "instructionsList": [
-        "1. Cuenta por defecto: Crea admin@chinetonusine.com / admin123456",
-        "2. Cuenta personalizada: Modifica los campos y luego crea",
-        "3. Cuentas de prueba: Crea 3 cuentas admin diferentes",
-        "4. Después de crear: Cierra sesión y vuelve a iniciar",
-        "5. Verificación: Redirección automática a /admin/dashboard"
-      ],
-      "consoleTitle": "🔧 Consola (F12):",
-      "consoleCommands": [
-        "await AdminCreation.createDefaultAdminAccount()",
-        "await AdminCreation.createTestAdminAccounts()"
-      ]
-    }
-  },
-  "categories": {
-    "home": "Inicio",
-    "electronics": "Electrónica",
-    "textile": "Textil",
-    "homeAndGarden": "Hogar y Jardín",
-    "machinery": "Maquinaria",
-    "automotive": "Automoción",
-    "toys": "Juguetes",
-    "beauty": "Belleza",
-    "sports": "Deportes",
-    "food": "Alimentación",
-    "medical": "Médico",
-    "sourcingPro": "Sourcing Pro",
-    "technology": "Tecnología",
-    "fashionClothing": "Moda y Ropa",
-    "industrialEquipment": "Equipo Industrial",
-    "decorationAndFurniture": "Decoración y Mobiliario",
-    "educationalAndLudic": "Educativo y Lúdico",
-    "partsAndAccessories": "Piezas y Accesorios"
-  },
-  "brands": {
-    "electronics": "ELECTRÓNICA",
-    "textile": "TEXTIL",
-    "machinery": "MAQUINARIA",
-    "homeAndGarden": "HOGAR Y JARDÍN",
-    "toys": "JUGUETES Y NIÑOS",
-    "automotive": "AUTO Y MOTO"
-  },
-  "cards": {
-    "componentsGadgets": "Componentes y Gadgets",
-    "premiumManufacturing": "Fabricación Premium",
-    "performanceInnovation": "Rendimiento e Innovación",
-    "designComfort": "Diseño y Confort",
-    "certifiedQuality": "Calidad Certificada",
-    "qualityPieces": "Piezas de Calidad"
-  },
-  "menu": "Menú",
-  "ctaButton": "Empezar ahora",
-  "willPleasure": "TE VA A ENCANTAR",
-  "pleasure": "ENCANTAR",
   "homepage": {
+    "title": "Chine ton usine",
     "hero": {
-      "cta": "Empezar ahora"
+      "subtitle": "Encuentra tu fábrica en China en 3 clics",
+      "description": "La plataforma B2B líder para conectar directamente con miles de proveedores chinos verificados",
+      "cta": "Empezar ahora",
+      "searchPlaceholder": "Buscar un producto, marca..."
+    },
+    "stats": {
+      "products": "productos",
+      "suppliers": "proveedores verificados",
+      "satisfaction": "satisfacción del cliente",
+      "response": "tiempo de respuesta promedio"
+    },
+    "categories": {
+      "popular": "Categorías populares",
+      "popularSubtitle": "Descubre nuestras categorías más solicitadas",
+      "electronics": "Electrónicos",
+      "fashion": "Moda",
+      "home": "Hogar",
+      "beauty": "Belleza",
+      "sports": "Deportes",
+      "automotive": "Automotriz",
+      "tools": "Herramientas",
+      "toys": "Juguetes",
+      "books": "Libros",
+      "music": "Música",
+      "garden": "Jardín",
+      "food": "Alimentación"
+    },
+    "benefits": {
+      "title": "¿Por qué elegir Chine ton usine?",
+      "payment": {
+        "title": "Pagos seguros",
+        "description": "Transacciones protegidas con garantía de devolución"
+      },
+      "delivery": {
+        "title": "Entrega mundial",
+        "description": "Envío rápido y confiable en todo el mundo"
+      },
+      "support": {
+        "title": "Soporte 24/7",
+        "description": "Asistencia multilingüe disponible en cualquier momento"
+      }
+    },
+    "how": {
+      "title": "¿Cómo funciona?",
+      "subtitle": "Encuentra tu fábrica en China en solo 3 pasos",
+      "step1": {
+        "title": "1. Buscar",
+        "description": "Explora nuestro catálogo de miles de productos y proveedores verificados"
+      },
+      "step2": {
+        "title": "2. Contactar",
+        "description": "Ponte en contacto directo con fábricas chinas confiables"
+      },
+      "step3": {
+        "title": "3. Ordenar",
+        "description": "Negocia tus precios y realiza tu pedido con confianza"
+      },
+      "cta": "Crear una cuenta"
+    },
+    "final": {
+      "title": "¿Listo para hacer crecer tu negocio?",
+      "subtitle": "Únete a miles de empresas que confían en nosotros",
+      "button": "Crear mi cuenta gratuita"
     }
+  },
+  "footer": {
+    "company": "Empresa",
+    "about": "Acerca de",
+    "careers": "Carreras",
+    "news": "Noticias",
+    "solutions": "Soluciones",
+    "sourcing": "Sourcing",
+    "quality": "Calidad",
+    "logistics": "Logística",
+    "resources": "Recursos",
+    "help": "Ayuda",
+    "blog": "Blog",
+    "guides": "Guías",
+    "legal": "Legal",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "cookies": "Cookies",
+    "contact": "Contacto",
+    "contactus": "Contáctanos",
+    "email": "contact@chinetonusine.com",
+    "phone": "+33 1 23 45 67 89",
+    "copyright": "Chine ton usine. Todos los derechos reservados.",
+    "rights": "Todos los derechos reservados"
   }
-} 
+}

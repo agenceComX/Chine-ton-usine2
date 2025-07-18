@@ -28,7 +28,7 @@ const HomePageFixed: React.FC = () => {
     const categories = [
         { name: t('homepage.categories.electronics'), icon: '📱', id: 'electronics', color: 'from-blue-500 to-cyan-500' },
         { name: t('homepage.categories.fashion'), icon: '👔', id: 'fashion', color: 'from-pink-500 to-rose-500' },
-        { name: t('homepage.categories.home.category'), icon: '🏡', id: 'home', color: 'from-green-500 to-emerald-500' },
+        { name: t('homepage.categories.home'), icon: '🏡', id: 'home', color: 'from-green-500 to-emerald-500' },
         { name: t('homepage.categories.beauty'), icon: '💄', id: 'beauty', color: 'from-purple-500 to-violet-500' },
         { name: t('homepage.categories.sports'), icon: '⚽', id: 'sports', color: 'from-orange-500 to-red-500' },
         { name: t('homepage.categories.automotive'), icon: '🚗', id: 'automotive', color: 'from-gray-500 to-slate-500' },
@@ -55,8 +55,8 @@ const HomePageFixed: React.FC = () => {
         },
         {
             icon: TrendingUp,
-            title: t('homepage.optimize.pay.title'),
-            description: t('homepage.optimize.pay.description'),
+            title: t('homepage.benefits.payment.title'),
+            description: t('homepage.benefits.payment.description'),
             color: 'text-orange-600 dark:text-orange-400'
         },
     ];
@@ -84,7 +84,7 @@ const HomePageFixed: React.FC = () => {
                         </h1>
 
                         <p className="text-xl lg:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-                            {t('homepage.hero.subtitle')}
+                            {t('homepage.hero.description')}
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -111,7 +111,7 @@ const HomePageFixed: React.FC = () => {
                                 <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-6 h-6" />
                                 <input
                                     type="text"
-                                    placeholder={t('homepage.search.placeholder.dev')}
+                                    placeholder={t('homepage.hero.searchPlaceholder')}
                                     disabled
                                     className="w-full pl-12 pr-4 py-4 bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl text-lg text-gray-500 dark:text-gray-400 shadow-lg transition-all duration-300 cursor-not-allowed"
                                 />
@@ -148,7 +148,7 @@ const HomePageFixed: React.FC = () => {
                         {t('homepage.categories.popular')}
                     </h2>
                     <p className="text-xl text-gray-600 dark:text-gray-300">
-                        {t('homepage.categories.popular.subtitle')}
+                        {t('homepage.categories.popularSubtitle')}
                     </p>
                 </div>
 
@@ -165,7 +165,7 @@ const HomePageFixed: React.FC = () => {
                             <div className="relative p-8 text-white">
                                 <div className="text-6xl mb-4">{category.icon}</div>
                                 <h3 className="text-2xl font-bold mb-2">{category.name}</h3>
-                                <p className="opacity-90">{t('homepage.cards.explore')}</p>
+                                <p className="opacity-90">Explorer</p>
                             </div>
                         </Link>
                     ))}
@@ -177,7 +177,7 @@ const HomePageFixed: React.FC = () => {
                 <div className="container mx-auto px-4 py-16">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-                            {t('homepage.how.title')}
+                            {t('homepage.benefits.title')}
                         </h2>
                         <p className="text-xl text-gray-600 dark:text-gray-300">
                             {t('homepage.how.subtitle')}
